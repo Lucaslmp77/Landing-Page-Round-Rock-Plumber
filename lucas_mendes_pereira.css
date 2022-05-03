@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+/*Reset dos padroes apricados pelo navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*-----Home-----*/
+
+/*Estilo da section da primeira tela (home)*/
+.home {
+    height: 100vh;
+    background-image: url(img/tela\ 1\ -\ fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*Container utilizado para alinhamento do logo (icone e titulo)*/
+.logoHome {
+    display: flex;
+    align-items: center;
+    max-width: 418px;
+
+}
+/*Estilo do titulo (Round Rock)*/
+.tituloHome {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 104.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+/*Estilo da segunda parte do titulo (plumbing)*/
+.tituloBaixo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.7em;
+    text-align: left;
+    color: #FFFFFF;
+}
+/*Container utilizado para a centralização das escritas na parte central*/
+.escritasHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 523px;
+}
+/*Estilo do titulo da parte central*/
+.whatisLorem {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 118.5%;
+    color: #FFFFFF;
+    max-width: 523px;
+    margin-top: 94px;
+}
+/*Estilo do texto da parte central*/
+.textoHome {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 520px;;
+    margin-top: 30px;
+}
+/*Container utilizado para o alinhamento dos icones de alicate*/
+.alicatesHome {
+    display: flex;
+    max-width: 566px;
+}
+/*Distanciamento entre os containers contendo a imagem do icone e escrita*/
+.escritaAlicate {
+    margin-right: 130px;
+    margin-top: 27px;
+}
+/*Estilo da escrita abaixo dos icones de alicate*/
+.servicesOne {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*Estilo do botao help me*/
+.botaoHelpMe {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 192px;
+    height: 62px;
+    background: #50B2EA;
+    box-shadow: 0px 20px 40px rgba(129, 209, 255, 0.2);
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+}
+
+/*-----Tela 2----*/
+
+/*Estilo da section da segunda tela*/
+.tela2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient( to right, #F2F2F2 52.7%, #50B2EA 47.3%);
+}
+/*Container utilizado para formar o rentangulo na parte central*/
+.containerCentroTela2 {
+    width: 1199px;
+    height: 509px;
+    background: #50B2EA;
+    border: 4px solid #F2F2F2;
+    border-radius: 40px;
+    border: none;
+}
+/*Dimensoes e posicionamento da imagem a direita do container central*/
+.imagemContCentroTela2 {
+    width: 559px;
+    height: 509px;
+    border-radius: 0px 40px 40px 0px;
+    margin-top: -444px;
+    margin-left: 640px;
+}
+/*Posicionamento do container que contem as escritas dentro do container central*/
+.articleTela2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;;
+    margin-left: 45px;
+    margin-top: 86px;
+}
+/*Estilo do titulo*/
+.tituloTela2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+    max-width: 518px;
+}
+/*Estilo do texto*/
+.textoTela2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #19435A;
+    max-width: 520px;
+    margin-top: 20px;
+}
+/*Posicionamento das escritas com os icones na frente*/
+.topicosTela2 {
+    display: flex;
+    align-items: center;
+    max-width: 550px;
+    margin-top: 30px;
+}
+/*Estilo das escritas apos os icones*/
+.escritaTopicoTela2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+/*Estilo e posicionamento do botao help me*/
+.botaoTela2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 160px;
+    height: 54px;
+    background: #50B2EA;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/*------tela 3-----*/
+
+/*Definição da altura da section da terceira tela*/
+.tela3 {
+    height: 100vh;
+}
+/*Container da parte de cima da tela*/
+.containerCimaTela3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 390px;
+    background-color: #50B2EA;
+    background-image: url(img/tela\ 3\ -\ fundo\ cima.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/*Estilo do titulo da terceita tela*/
+.tituloTela3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 210px;
+}
+/*Container utilizado para o alinhamento dos icones de alicate*/
+.containerIconesTela3 {
+    display: flex;
+    max-width: 966px;
+    margin-top: 50px;
+}
+/*Posicionamento dos icones dentro dos retangulos*/
+.imgAlicateTela3 {
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 60px;
+}
+/*Posicionamento dos retangulos que envolvem os icones*/
+.imgRetanguloTela3 {
+    margin-right: 82px;
+}
+/*Container da parte de baixo da tela*/
+.containerBaixoTela3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*Container utilizado para a centralização das colunas*/
+.containerColunasTela3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 999px;
+}
+/*Distanciamento entre as colunas*/
+.coluna {
+    margin-right: 81px;
+}
+/*Estilo e posicionamento de escrita*/
+.loremIpsumTela3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #50B2EA;
+    margin-top: 28px;
+}
+/*Estilo e posicionamento de escrita*/
+.textoTela3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #19435A;
+    max-width: 180px;
+    margin-top: 14px;
+}
+/*Estilo e posicionamento do botao help me*/
+.botaoTela3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 160px;
+    height: 54px;
+    background: #50B2EA;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/*-----Tela 4-----*/
+
+/*Section da quarta tela*/
+.tela4 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #50B2EA;
+}
+/*Estilo do titulo*/
+.tituloTela4 {
+    font-family: 'Poppins', sans-serif;
+    max-width: 336px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 55px;
+}
+/*Container utilizado para os 2 blocos da esquerda*/
+.containerEsquerdaTela4 {
+    display: flex;
+    margin-top: 50px;
+}
+/*Container utilizado para os 2 blocos da direita*/
+.containerDireitaTela4 {
+    display: flex;
+    margin-top: 30px;
+}
+/*Estilo dos blocos*/
+.bloco {
+    width: 577px;
+    height: 233px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 40px;
+    margin-left: 46px;
+}
+/*Estilo da escrita (nome) dentro dos blocos*/
+.nomeTela4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #50B2EA;
+    max-width: 147px;
+}
+/*Estilo do texto dentro dos blocos*/
+.textoTela4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #19435A;
+    max-width: 423px;
+}
+/*Posicionamento da imagem dentro dos blocos*/
+.imgMulherTela4 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+/*Posicionamento das escritas dentro dos blocos*/
+.escritasTela4 {
+    margin-left: 124px;
+    margin-top: 35px;
+}
+/*Margem do topo entre o texto e os icones de estrelas*/
+.starsTela4 {
+    margin-top: 11.2px;
+}
+/*Distanciamento entre os icones de estrelas*/
+.estreleTela4 {
+    margin-right: 4px;
+}
+
+/*-----Tela 5----*/
+
+/*Section da quinta tela*/
+.tela5 {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+/*Estilo do titulo*/
+.tituloTela5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #50B2EA;
+    max-width: 271px;
+    margin-top: 50px;
+}
+/*Distanciamento do fieldset em relação ao titulo e remoçao de sua borda*/
+fieldset {
+    margin-top: 50px;
+    border: 0;
+}
+/*Estilo dos campos de input*/
+.campo input{
+    width: 370px;
+    height: 64px;
+    background: #50B2EA;
+    opacity: 0.5;
+    border-radius: 40px;
+    border: none;
+    margin-top: 14px;
+}
+/*Estilo do botao enviar*/
+.botaoTela5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 148px;
+    height: 64px;
+    background: #50B2EA;
+    border-radius: 40px;
+    border: none;
+    margin-top: 14px;
+}
+/*Estilo do container abaixo do botao enviar*/
+.containerFinalTela5 {
+    width: 100%;
+    height: 80px;
+    background: #19435A;
+    margin-top: 50px;
+}
